@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="el">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning JS</title>
+</head>
+
+<body>
+    <header>
+        <h1>Νευράκια Γραμματακια</h1>
+        <h2>Τα γράμματα στο παρακάτω κείμενο έχουν το μέγεθος των νεύρων στα δόντια, μπορείς να τα δείς? Αν όχι πάτησε
+            το
+            κουμπί μεγένθυνσης...</h2>
+    </header>
+    <main>
+        <h3 style="font-size: 5px; color:steelblue;">Τερηδόνα</h3>
+        <h3 style="font-size:20px; color:steelblue; display:none;" id='hidden1'>Τερηδόνα</h3>
+        <p style="display:none;" id='hidden2'>Tελικά η μεγεθυνση μας βοήθησε να δουμε καλύτερα
+            τα νευράκια γραμματάκια, ανανέωσε την σελίδα για να το ξανακάνεις!</p>
+        <img id='smile' src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/220px-SNice.svg.png"
+            style="display:none" />
+        <br>
+
+        <button onclick="
+        document.getElementById('hidden1').style.display='block';
+        document.getElementById('hidden2').style.display='block';
+        document.getElementById('smile').style.display= 'block'"
+            style="background-color: brown; color:wheat; padding:20px; font-size:20px;">Μεγέθυνση
+            x4
+        </button>
+
+    </main>
+    <footer>
+        <br><br>
+        &copy; Petros
+    </footer>
+</body>
+
+</html>
